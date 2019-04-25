@@ -1,0 +1,62 @@
+@import "./semantic/semantic.css";
+@import "./semantic/components/accordion.css";
+
+.hidden {
+  display: none !important;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+body > .ui.segment{
+  margin: 1.5rem 0;
+  padding: 0;
+}
+
+.item {
+  margin: 0.75rem 0;
+}
+
+.ui.label > .icon {
+  margin: 0 0.25rem 0 0;
+}
+
+body {
+  margin: auto;
+  padding: 2rem;
+  max-width: 60rem;
+}
+
+#del-link {
+  cursor: pointer;
+}
+
+#sw-not-supported {
+  color: red;
+}
+
+#map {
+  #map-container {
+    svg {
+      display: block;
+      background: #efe6d7;
+      touch-action: none;
+    }
+  } 
+}
+
+#success {
+  #message {
+    font-size: 1.5rem;
+    .icon {
+      color: green;
+    }
+  }
+
+}
+
+@import "/svg.scss";

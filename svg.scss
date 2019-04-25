@@ -1,0 +1,51 @@
+.junction {
+    fill: white;
+    stroke: grey;
+    stroke-width: 0.001;
+}
+
+.edge {
+    fill: none;
+    stroke-linecap: round;
+    stroke: white;
+    stroke-width: 0.008;
+}
+.edge-shadow {
+    stroke: grey;
+    stroke-width: 0.009;
+}
+
+.water {
+    fill-rule: evenodd;
+    fill: #78bced;
+}
+.park {
+    fill-rule: evenodd;
+    fill: #c8dd97;
+}
+.building {
+    fill-rule: evenodd;
+    fill: #d5c9b4
+}
+
+
+.blue-junction {
+    fill: #4285f4;
+    stroke: #6ea3f7;
+    stroke-width: 0.004;
+    pointer-events: none;
+}
+.blue-edge {
+    fill: none;
+    stroke-linecap: round;
+    stroke: #4285f4;
+    stroke-width: 0.0075;
+    pointer-events: none;
+}
+.blue-edge-shadow {
+    fill: none;
+    stroke-linecap: round;
+    stroke: #6ea3f7;
+    stroke-width: 0.01;
+    pointer-events: none;
+}
