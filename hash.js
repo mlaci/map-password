@@ -22,7 +22,7 @@ global.Module = {
 
 import {argon2} from "argon2-browser"
 
-argon2.hash({pass: "password", salt: "somesalt", distPath: "/argon2.min.js#"})
+argon2.hash({pass: "password", salt: "somesalt", distPath: "./argon2.min.js#"})
 .catch(()=>{})
 
 function bytesToString(arrayBuffer){
